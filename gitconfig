@@ -1,0 +1,24 @@
+[user]
+	name = sangeun_kim
+	email = sangeun_kim@tmax.co.kr
+
+[core]
+  editor = vim
+[alias]
+	br = branch
+	co = checkout
+	st = status
+	cm = commit
+	df = diff
+	rb = rebase -i
+	d = difftool
+  lg = log --graph
+
+[diff]
+	tool = vimdiff
+
+[difftool]
+	prompt = false
+
+[merge]
+	tool = vimdiff
