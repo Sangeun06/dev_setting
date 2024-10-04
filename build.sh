@@ -24,7 +24,7 @@ install_deps=(
 	cscope
 )
 sudo apt update
-sudo apt install ${install_deps[*]}
+sudo apt install ${install_deps[*]} -y
 
 # Download jellybeans color scheme
 if [ ! -f "${HOME}/.vim/colors/jellybeans.vim" ]; then
